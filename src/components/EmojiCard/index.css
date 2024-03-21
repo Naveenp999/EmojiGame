@@ -1,0 +1,31 @@
+.button {
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff33;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50px;
+  }
+}
+.emoji-icon {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-icon {
+    width: 100px;
+    height: 100px;
+  }
+}

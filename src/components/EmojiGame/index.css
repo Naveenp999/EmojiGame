@@ -1,0 +1,22 @@
+.game-background {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+.game-subcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.game-card {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.emojis-list-container {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
